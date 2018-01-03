@@ -1,0 +1,22 @@
+
+#splash-page {
+    margin-top: 40px;
+    background-color: cyan;
+}
+
+nav {
+    background-color: violet;
+}
+
+#event-info {
+    background-color: red;
+}
+
+#about-us {
+    background-color: blue;
+}
+
+.viewport-height {
+    height: 60%;
+}
+
