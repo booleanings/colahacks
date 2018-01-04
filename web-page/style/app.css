@@ -1,22 +1,64 @@
-
-#splash-page {
-    margin-top: 40px;
-    background-color: cyan;
+header {
+    height: 60px;
 }
 
 nav {
-    background-color: violet;
+    background-color: #262322;
+    height: 100%;
 }
 
-#event-info {
-    background-color: red;
+.center-header {
+    text-align: center;
 }
 
-#about-us {
-    background-color: blue;
+.nav-item {
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+    padding: 1em;
+}
+
+.nav-item:hover {
+    background-color: #393736;
+}
+
+a:hover {
+    color: #00747A;
+    text-decoration: none;
+}
+
+.no-padding {
+    padding: 0;
 }
 
 .viewport-height {
-    height: 60%;
+    height: 100%; 
 }
 
+#about-us {
+    /*background-color: blue;*/
+}
+
+#date-name {
+    height: 30%;
+}
+
+#event-info {
+    /*background-color: red;*/
+}
+
+#logo {
+    height: 50%;
+}
+
+#splash-page {
+    margin-top: 40px;
+    background-image: url(../assets/background.svg);
+    background-size: cover;
+}
+
+#splash-svg {
+     /*transform: rotate(7deg);*/
+}

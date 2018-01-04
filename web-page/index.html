@@ -1,24 +1,86 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="./style/bootstrap.min.css">
-        <script src="./js/jquery-3.2.1.min.js"></script>
-        <script src="./js/bootstrap.bundle.min.js"></script>
-        <link rel="stylesheet" href="./style/app.css">
-    </head>
-    <body>
-        <nav class="navbar fixed-top">
-            <div class="container">
-            <a href="#splash-page">Home</a>
-            <a href="#event-info">Info</a>
-            <a href="#about-us">about</a>
+
+<head>
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./style/app.css">
+</head>
+
+<body>
+    <header class="navbar navbar-toggleable-md bd-navbar fixed-top no-padding">
+        <nav class="container-fluid">
+            <div class="row align-items-start">
+                <a href="#splash-page">
+                    <div class="nav-item justify-content-center">
+                        Home
+                    </div>
+                </a>
+                <a class="nav-item" href="#event-info">Info</a>
+                <a class="nav-item" href="#about-us">About</a>
             </div>
         </nav>
-        <div class="container-fluid">
-            <div class="viewport-height" id="splash-page">Splash Page</div>
-            <div class="viewport-height" id="event-info">Event</div>
-            <div class="viewport-height" id="about-us">About</div>
+    </header>
+
+    <div class="cover-container">
+
+        <div class="container-fluid no-padding">
+            <div class="viewport-height row align-items-center justify-content-center" id="splash-page">
+                <img id="logo" src="./assets/logo.svg" />
+                <img id="date-name" src="./assets/title_date.svg" />
+            </div>
+            <div class="viewport-height" id="event-info">
+                <h4 class="center-header">Event Info</h4>
+                <div class>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit est ac pretium fermentum. Donec vitae orci malesuada,
+                    fermentum turpis aliquam, commodo mi. Vestibulum tempus mauris nulla, eu tristique purus volutpat et.
+                    Aliquam in nulla scelerisque, commodo purus ac, efficitur arcu. Sed pellentesque eu nunc at ullamcorper.
+                    Etiam condimentum diam leo, eget rutrum lacus tempus eget. Praesent metus libero, faucibus id neque vitae,
+                    lobortis bibendum nisi. Maecenas ex magna, feugiat sed metus non, egestas auctor libero. Proin id euismod
+                    eros. Quisque ac hendrerit justo, nec pulvinar libero. Phasellus commodo consequat neque ut ullamcorper.
+                    Curabitur aliquet finibus massa. Nulla sollicitudin eros non volutpat semper. Donec vel nibh faucibus,
+                    commodo mi non, consequat erat. Etiam volutpat dictum dolor, ac pharetra sem consequat et. Suspendisse
+                    magna odio, elementum scelerisque justo eget, euismod efficitur risus. Phasellus porta lectus nisl, at
+                    commodo orci efficitur sit amet. Vestibulum eget porta arcu, et eleifend eros. Proin porta imperdiet
+                    suscipit. Integer fringilla volutpat mi at dapibus. Pellentesque lobortis nisl vitae nisl aliquam, vitae
+                    pretium purus sodales. Nulla eu suscipit nunc, in bibendum velit. Maecenas vitae convallis massa, non
+                    semper massa. Sed congue, enim et lacinia aliquam, urna diam congue elit, in vulputate mi orci eget tortor.
+                    Maecenas semper pharetra neque, eu varius ipsum eleifend a. Quisque eget justo ornare, tincidunt metus
+                    eu, pretium purus. Nunc pulvinar id mi eu pulvinar. Donec ligula felis, interdum eget felis eget, molestie
+                    rhoncus leo. Morbi condimentum sed lectus et placerat. Integer sagittis tellus id sem bibendum tempor.
+                    Sed rhoncus congue vulputate. Phasellus volutpat, ante rhoncus rutrum maximus, arcu dui venenatis est,
+                    non pellentesque sem tellus sit amet odio. Phasellus dignissim libero quis ante accumsan vestibulum.
+                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus ultrices,
+                    velit non iaculis ultricies, ipsum nulla varius turpis, a sollicitudin nunc dui in libero.
+                </div>
+            </div>
+            <div class="viewport-height" id="about-us">
+                <h4 class="center-header">About Us</h4>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit est ac pretium fermentum. Donec vitae
+                orci malesuada, fermentum turpis aliquam, commodo mi. Vestibulum tempus mauris nulla, eu tristique purus
+                volutpat et. Aliquam in nulla scelerisque, commodo purus ac, efficitur arcu. Sed pellentesque eu nunc at
+                ullamcorper. Etiam condimentum diam leo, eget rutrum lacus tempus eget. Praesent metus libero, faucibus id
+                neque vitae, lobortis bibendum nisi. Maecenas ex magna, feugiat sed metus non, egestas auctor libero. Proin
+                id euismod eros. Quisque ac hendrerit justo, nec pulvinar libero. Phasellus commodo consequat neque ut ullamcorper.
+                Curabitur aliquet finibus massa. Nulla sollicitudin eros non volutpat semper. Donec vel nibh faucibus, commodo
+                mi non, consequat erat. Etiam volutpat dictum dolor, ac pharetra sem consequat et. Suspendisse magna odio,
+                elementum scelerisque justo eget, euismod efficitur risus. Phasellus porta lectus nisl, at commodo orci efficitur
+                sit amet. Vestibulum eget porta arcu, et eleifend eros. Proin porta imperdiet suscipit. Integer fringilla
+                volutpat mi at dapibus. Pellentesque lobortis nisl vitae nisl aliquam, vitae pretium purus sodales. Nulla
+                eu suscipit nunc, in bibendum velit. Maecenas vitae convallis massa, non semper massa. Sed congue, enim et
+                lacinia aliquam, urna diam congue elit, in vulputate mi orci eget tortor. Maecenas semper pharetra neque,
+                eu varius ipsum eleifend a. Quisque eget justo ornare, tincidunt metus eu, pretium purus. Nunc pulvinar id
+                mi eu pulvinar. Donec ligula felis, interdum eget felis eget, molestie rhoncus leo. Morbi condimentum sed
+                lectus et placerat. Integer sagittis tellus id sem bibendum tempor. Sed rhoncus congue vulputate. Phasellus
+                volutpat, ante rhoncus rutrum maximus, arcu dui venenatis est, non pellentesque sem tellus sit amet odio.
+                Phasellus dignissim libero quis ante accumsan vestibulum. Class aptent taciti sociosqu ad litora torquent
+                per conubia nostra, per inceptos himenaeos. Vivamus ultrices, velit non iaculis ultricies, ipsum nulla varius
+                turpis, a sollicitudin nunc dui in libero.</div>
             <div id="more-info"></div>
             <div id="footer"></div>
         </div>
-    </body>
+    </div>
+
+</body>
+
 </html>
