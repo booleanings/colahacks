@@ -1,14 +1,29 @@
 header {
-    height: 60px;
+    height: 3.5rem;
 }
 
-nav {
+.about-title {
+    font-weight: bold;
+    font-size: 4em;
+}
+
+.navbar {
     background-color: #262322;
-    height: 100%;
+    color: white !important;
 }
 
 .center-header {
     text-align: center;
+}
+
+#down-arrow {
+    font-size: 5em;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+#logo-container {
+
 }
 
 .nav-item {
@@ -22,6 +37,12 @@ nav {
 
 .nav-item:hover {
     background-color: #393736;
+}
+
+.navi-title {
+    margin-left: 1em;
+    font-weight: bolder;
+    color: whitesmoke !important;
 }
 
 a:hover {
@@ -42,23 +63,105 @@ a:hover {
 }
 
 #date-name {
-    height: 30%;
+    width: 90%;
+    max-width: 800px;
 }
 
 #event-info {
     /*background-color: red;*/
 }
 
+.tweeter {
+    color: #0084ff;
+}
+
+.f-row {
+    display: flex;
+    flex-direction: row;
+}
+
+#footer {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    background-color: #262322;
+    color: white;
+    flex-direction: column;
+}
+
 #logo {
-    height: 50%;
+    height: 45%;
 }
 
 #splash-page {
     margin-top: 40px;
-    background-image: url(../assets/background.svg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: url(../assets/background_image_tile.svg);
     background-size: cover;
+}
+
+.link-text-col > a {
+    color: whitesmoke !important;
+}
+
+.link-text-col:visited {
+    color: whitesmoke;
+}
+
+.link-text-col:hover {
+    background-color: #1b1b29;
 }
 
 #splash-svg {
      /*transform: rotate(7deg);*/
+}
+
+#more-info {
+    padding: 5em;
+    text-align: center;
+    background-color: rgba(38, 35, 34, .8);
+    color: whitesmoke;
+}
+
+.col-nav-color {
+    background-color: #262322;
+    color: whitesmoke;
+}
+
+.info-text {
+    font-size:2em;
+}
+
+@media (min-width: 768px) {
+    .navi-title {
+        margin-left: 15px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    ul {
+        background-color: #262322;
+    }
+
+    .info-text {
+        font-size: 1.5em;
+    }
+
+    #more-info {
+        padding: 2em;
+    }
+
+    .about-title {
+        font-size: 2.5em;
+    }
 }
